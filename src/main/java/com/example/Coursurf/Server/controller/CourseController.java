@@ -16,4 +16,9 @@ public class CourseController {
         return "Search Courses Endpoint";
     }
 
+    @GetMapping("/courses/semantic_search")
+    public String semanticSearchCourses() {
+        return "Semantic Search Courses Endpoint";
+    }
+
 }
