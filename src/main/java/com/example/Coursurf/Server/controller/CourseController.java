@@ -21,4 +21,14 @@ public class CourseController {
         return "Semantic Search Courses Endpoint";
     }
 
+    @GetMapping("/courses/filter")
+    public String filterCourse() {
+        return "Filter Course Endpoint";
+    }
+
+    @GetMapping("/courses/view")
+    public String viewCourse() {
+        return "View Course Endpoint";
+    }
+
 }
