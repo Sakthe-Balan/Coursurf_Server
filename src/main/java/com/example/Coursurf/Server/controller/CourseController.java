@@ -11,6 +11,9 @@ public class CourseController {
     public String hello() {
         return "Hello, World!";
     }    
-
+    @GetMapping("/courses/search")
+    public String searchCourses() {
+        return "Search Courses Endpoint";
+    }
 
 }
