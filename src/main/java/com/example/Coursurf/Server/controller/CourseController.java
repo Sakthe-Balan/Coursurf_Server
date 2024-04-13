@@ -2,24 +2,6 @@ package com.example.Coursurf.Server.controller;
 
 import com.example.Coursurf.Server.model.University;
 
-// import org.springframework.web.bind.annotation.GetMapping;
-// import org.springframework.web.bind.annotation.RequestMapping;
-// import org.springframework.web.bind.annotation.RestController;
-
-// // import com.example.Coursurf.Server.model.Course;
-// import com.example.Coursurf.Server.model.University;
-// import com.mongodb.MongoException;
-// import com.mongodb.client.MongoClients;
-
-// // import com.mongodb.client.MongoClients;
-// import org.springframework.beans.factory.annotation.Autowired;
-// import org.springframework.data.mongodb.core.MongoTemplate;
-// import org.springframework.http.ResponseEntity;
-// import org.springframework.http.HttpStatus;
-
-
-// import java.util.List;
-// import java.util.Random;
 import com.mongodb.DBObject;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
