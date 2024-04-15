@@ -1,12 +1,16 @@
 import csv
 import mysql.connector
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # MySQL database configuration
 db_config = {
-    'host': 'coursurfdatabase.cf4isu2imje6.us-east-1.rds.amazonaws.com',
-    'user': 'coursurf',
-    'password': 'coursurf',
-    'database': 'CoursurfDB'
+    'host': os.getenv('DB_HOST'),
+    'user': os.getenv('DB_USER'),
+    'password': os.getenv('DB_PASSWORD'),
+    'database': os.getenv('DB_NAME')
 }
 
 # CSV file path
